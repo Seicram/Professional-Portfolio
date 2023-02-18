@@ -132,9 +132,30 @@ p {
 .online-reputation-management img {
     max-height: 200px;
 }
-.socila-media-marketing img {
+.social-media-marketing img {
     max-height: 200px;
 }
-.search-engeine-optimization img {
-    max-height: 200px;
+.search-engeine-optimization h2 {
+    display: block;
+    margin: 20px auto;
+    max-width: 36px;
+}
+.online-reputation-management h2{
+    display: block;
+    margin: 20px auto;
+    max-width: 36px;
+}
+.social-media-marketing h2 {
+    display: block;
+    margin: 20px auto;
+    max-width: 36px;
+}
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.footer h2 {
+    font-size: 20px;
 }
