@@ -1,0 +1,269 @@
+:root {
+    --grey: rgb(117, 117, 117);
+    --grey: rgb(117, 117, 117);
+    --grey: rgb(117, 117, 117);
+    --light-grey: rgb(199, 199, 199);
+    --border: 5px solid var(--white);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color:rgb(82, 6, 6);
+    font-family: 'Times New Roman', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--light-grey);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    background-color: var(--teal);
+}
+
+h1 {
+    width: 90%;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+nav {
+    width: 10%;
+    background-color: var(--white);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nav-header {
+    font-size: 32px;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    padding-left: 5px;
+    text-align: right;
+}
+
+li {
+    width: max-content;
+    text-align: right;
+}
+
+.main {
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/EGA.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5; /* Adjust the opacity value as desired */
+    z-index: -1;
+}
+
+/* Add this code to your existing CSS */
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-grey);
+    opacity: 0.5; /* Adjust the opacity value as desired */
+    z-index: -1;
+}
+
+.text-left {
+    margin: 20px 0 20px 100px;
+    border: var(--border);
+    border-radius: 5px;
+    width: 75%;
+    height: max-content;
+    background-color: var(--grey);
+    line-height: 1.5;
+}
+
+.section-header {
+    background-color: var(--white);
+    margin: 0;
+    border-bottom: var(--border);
+    padding: 10px;
+    padding-right: 0;
+}
+
+#profile-picture {
+    width: 200px;
+    height: 250px;
+    float: right;
+    border-radius: 5px;
+    border: var(--border);
+    margin: 10px 10px 10px 0;
+}
+
+p {
+    height: max-content;
+    min-height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 20px;
+    font-size:
+20px;
+}
+
+#portfolio {
+display: block;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.portfolio-item {
+border: var(--border);
+border-radius: 12px;
+margin: 30px 2.5% 10px 2.5%;
+width: 250px;
+height: 260px;
+background-image: url("../images/Placeholder.PNG");
+background-size: contain;
+}
+
+#first-port-item {
+width: 94%;
+height: 600px;
+background-image: url("../images/EGA.jpg");
+background-size: cover;
+}
+
+.link {
+position: absolute;
+width: 250px;
+height: 260px;
+}
+
+#first-link {
+width: 70.5%;
+height: 600px;
+}
+
+h3 {
+background-color: var(--white);
+margin: 0px;
+border-right: var(--border);
+border-bottom: var(--border);
+padding: 10px;
+border-radius: 6px 0 12px 0;
+width: 100px;
+}
+
+.container {
+width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+
+#horiseon-refactor {
+background-image: url("../images/Horiseon.png");
+background-size: cover;
+}
+
+#contact {
+width: 350px;
+}
+
+#contact-ul {
+text-align: left;
+line-height: 1.5;
+padding: 10px;
+}
+
+a {
+color:rgb(82, 6, 6);
+font-family: 'Times New Roman', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration: none;
+}
+
+footer {
+text-align: center;
+font-size: 24px;
+background-color: var(--teal);
+height: 50px;
+position: relative;
+bottom: 0;
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+@media screen and (max-width: 1350px) {
+h1 {
+font-size: 50px;
+}
+#nav-header {
+font-size: 20px;
+padding-left: 2px;
+}
+nav ul {
+padding-left: 2px;
+font-size: 16px;
+line-height: 1.5;
+}
+#first-port-item {
+height: 500px;
+width: 93%;
+}
+}
+
+@media screen and (max-width: 720px) {
+h1 {
+font-size: 32px;
+width: 80%;
+}
+nav {
+width: 20%;
+}
+#nav-header {
+font-size: 16px;
+}
+nav ul {
+font-size: 12px;
+}
+.text-left {
+margin: 20px 0 20px 50px;
+}
+#profile-picture {
+width: 150px;
+height: 200px;
+}
+.portfolio {
+margin: 20px 0 20px 50px;
+}
+#first-port-item {
+height: 350px;
+width: 92%;
+}
+}

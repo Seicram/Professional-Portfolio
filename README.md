@@ -1,23 +1,21 @@
-# challenge2
+# Marcies Smith's Portfolio
 
-## User Story
+## Description
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+In this challenge, I built a portfolio showcasing my use of html and css while utilizing the layout needs to be responsive as well as providing functional navigation elements, both within the application and to destinations outside of the applicaiton. 
 
-## Acceptance Criteria
+## Installation
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+None
+
+## Usage
+
+Potential furture and/or current employers and collaborators can explore my portfolio find out details about both my professional and personal life, and to view work that I have cmpleted, including projects that I have done for my Full Stack Web Development Bootcamp. The navagation bar directs users to each of the appropriate sections: Profile, Portfolio, and Contact. Each item within the Portfolio section links to the deployed project that it refrences. The working Contact section contains links to my Github page as well as my LinkedIn page.  
+
+## Credits
+
+None
+
+## License
+
+None
